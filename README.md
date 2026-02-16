@@ -1,0 +1,1 @@
+The International Phonetic Alphabet (IPA) is an alphabet where each letter represents one sound and one sound only.  This website allows users to select two languages, and then the sounds of each language will be highlighted, allowing users to compare the sounds used in the two different languages.
