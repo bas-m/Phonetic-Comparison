@@ -20,6 +20,12 @@ body {
   display: inline-block;
 }
 
+.trapezoid-label {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
 /* class that includes ALL IPA characters */
 .ipa {
   position: absolute;
@@ -49,6 +55,15 @@ body {
      elements with a smaller z-index (i.e., they appear on top) */
   z-index: 2;
 }
+
+/* positions the vowel trapezoid labels */
+.label-front { top: -4%; left: 5% }
+.label-central { top: -4%; left: 45% }
+.label-back { top: -4%; left: 85% }
+.label-close { top: 4%; left: -5% }
+.label-close-mid { top: 32%; left: -5% }
+.label-open-mid { top: 61%; left: -5% }
+.label-open { top: 91%; left: -5% }
 
 /* positions the IPA letters in their proper spots on the vowel trapezoid */
 .i { top: 4%; left: 7%; }
